@@ -22,10 +22,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: SKin
   m_Shader: {fileID: 4800000, guid: ee7e4c9a5f6364b688a332c67fc32cca, type: 3}
-  m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_OFF _RECEIVE_SHADOWS_OFF _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-    _SPECULARHIGHLIGHTS_OFF _SPECULAR_SETUP
+  m_ShaderKeywords: _RECEIVE_SHADOWS_OFF _SPECULARHIGHLIGHTS_OFF _SPECULAR_SETUP
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
@@ -106,12 +105,12 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EnvironmentReflections: 0
+    - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossinessSource: 0
     - _GlossyReflections: 0
-    - _Metallic: 0
+    - _Metallic: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
@@ -120,7 +119,7 @@ Material:
     - _Shininess: 0
     - _Smoothness: 0
     - _SmoothnessSource: 0
-    - _SmoothnessTextureChannel: 1
+    - _SmoothnessTextureChannel: 0
     - _SpecSource: 0
     - _SpecularHighlights: 0
     - _SrcBlend: 1
