@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.unity.cinemachine": {
+      "version": "2.6.17",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
     "com.unity.collab-proxy": {
       "version": "1.11.2",
       "depth": 0,
@@ -41,6 +48,13 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.0.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
